@@ -114,7 +114,7 @@ module. So it is easy to give the path of a file stored in a module.
 
 <code php>
    $rep = $this->getResponse('basichtml');
-   $rep->htmlFile = jApp::coord()->getModulePath('unModule'). 'static/hello.php';
+   $rep->htmlFile = jApp::getModulePath('unModule'). 'static/hello.php';
 </code>
 
 
